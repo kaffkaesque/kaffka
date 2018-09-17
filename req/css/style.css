@@ -23,7 +23,6 @@ header {
 
 header > img {
         width: 96ch;
-        border-image: url('https://cdn.rawgit.com/bitdegree/banners/2a38157e/learn/Screenshot_6.png') 235 stretch;
 }
 
 #content {
