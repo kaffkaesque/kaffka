@@ -1,11 +1,16 @@
 @font-face {
     font-family: OpenSans;
-    src: url('fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
 }
 
 @font-face {
     font-family: OpenSans-light;
-    src: url('fonts/OpenSans-Light.ttf');
+    src: url('../fonts/OpenSans/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: MinionProBold;
+    src: url('../fonts/MinionPro/MinionProBold.ttf');
 }
 
 body {
@@ -32,13 +37,13 @@ header > img {
 
 h1 {
     font-size: 3em;
-    font-family: OpenSans-light;
+    font-family: MinionProBold;
     margin: 0;
 }
 
 h2 {
     font-size: 1.8em;
-    font-family: OpenSans-light;
+    font-family: MinionProBold;
 }
 
 p, blockquote, ul, ol {
