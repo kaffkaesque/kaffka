@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    
+
 }
 
 header > img {
@@ -34,6 +34,7 @@ header > img {
 h1 {
     font-size: 3em;
     font-family: OpenSans-light;
+    margin: 0;
 }
 
 h2 {
