@@ -1,0 +1,47 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-light;
+    src: url('fonts/OpenSans-Light.ttf');
+}
+
+body {
+    background-image: url('/Users/kulia/Documents/projects/ntnu/webtec/kaffka/req/img/background.jpg');
+    background-size: cover;
+
+    width: 96ch;
+    margin: auto;
+    font-family: OpenSans;
+}
+
+header {
+    
+}
+
+header > img {
+        width: 96ch;
+        border-image: url('https://cdn.rawgit.com/bitdegree/banners/2a38157e/learn/Screenshot_6.png') 235 stretch;
+}
+
+#content {
+    background-color: white;
+    padding: 2ch;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: OpenSans-light;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-family: OpenSans-light;
+}
+
+p, blockquote, ul, ol {
+    font-size: 1em;
+    line-height: 1.5em;
+}
