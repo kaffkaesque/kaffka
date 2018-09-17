@@ -51,4 +51,5 @@ h2 {
 p, blockquote, ul, ol {
     font-size: 1em;
     line-height: 1.5em;
+    text-align: justify;
 }
