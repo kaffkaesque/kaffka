@@ -20,6 +20,8 @@ body {
     width: 96ch;
     margin: auto;
     font-family: OpenSans;
+
+    padding: 3ch;
 }
 
 header {
