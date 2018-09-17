@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('/Users/kulia/Documents/projects/ntnu/webtec/kaffka/req/img/background.jpg');
+    background-image: url('../img/background.jpg');
     background-size: cover;
 
     width: 96ch;
