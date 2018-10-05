@@ -1,0 +1,62 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-light;
+    src: url('../fonts/OpenSans/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: MinionProBold;
+    src: url('../fonts/MinionPro/MinionProBold.ttf');
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+
+    width: 96ch;
+    margin: auto;
+    font-family: OpenSans;
+
+    color: #1d2124;
+    padding: 3ch;
+}
+
+header {
+
+}
+
+header > img {
+        width: 96ch;
+}
+
+#content {
+    background-color: #fef0d5;
+    padding: 2ch;
+    color: #1d2124;
+}
+
+h1 {
+    color: #1d2124;
+    font-size: 3em;
+    font-family: MinionProBold;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-family: MinionProBold;
+}
+
+p, blockquote, ul, ol {
+    color: #1d2124;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+i {
+    color: #7f9d9b;
+}
