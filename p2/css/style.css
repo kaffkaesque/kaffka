@@ -33,6 +33,10 @@ header > img {
         width: 96ch;
 }
 
+img {
+        width: 90ch;
+}
+
 #content {
     background-color: #fef0d5;
     padding: 2ch;
