@@ -41,11 +41,11 @@
 }
 
 [class*='col-'] > p {
-    background-color: #000000; 
+    background-color: white; 
     padding: 0;
     margin: 0;
     text-align: left; 
-    color: white; 
+    color: black; 
 }
 
 
@@ -73,4 +73,8 @@
     .col-4{ width: 100%;    }
     .col-5{ width: 100%;    }
     .col-6{ width: 100%;    }
+}
+
+#main-content{
+    margin: auto;
 }
