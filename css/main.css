@@ -13,20 +13,26 @@
 [class*='col-'] {
     float: left;
     min-height: 1px; 
-    width: 25%; 
+    width: 16.66%; 
     padding: 5px;
 }
 
 .col-1{
-    width: 25%; 
+    width: 16.66%; 
 }
 .col-2{
-    width: 50%; 
+    width: 33.33%; 
 }
 .col-3{
-    width: 75%; 
+    width: 50%; 
 }
 .col-4{
+    width: 66.664%;
+}
+.col-5{
+    width: 83.33%;
+}
+.col-6{
     width: 100%;
 }
 
@@ -44,10 +50,12 @@
 
 
 @media all and (max-width:800px){
-    .col-1{ width: 25%;  }
+    .col-1{ width: 33.33%;  }
     .col-2{ width: 50%;     }
-    .col-3{ width: 100%;  }
+    .col-3{ width: 83.33%;  }
     .col-4{ width: 100%;    }
+    .col-5{ width: 100%;    }
+    .col-6{ width: 100%;    }
 
     .row .col-2:last-of-type{
         width: 100%; 
@@ -63,4 +71,6 @@
     .col-2{ width: 100%;    }
     .col-3{ width: 100%;    }
     .col-4{ width: 100%;    }
+    .col-5{ width: 100%;    }
+    .col-6{ width: 100%;    }
 }
