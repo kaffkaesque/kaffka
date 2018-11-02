@@ -59,7 +59,6 @@
 }
 
 [class*='col-'] > p {
-    background-color: white; 
     padding: 0;
     margin: 0;
     text-align: left; 
@@ -101,4 +100,28 @@
 #main-content{
     margin-left: 20%;
     margin-right: 20%; 
+}
+
+.navbar{
+
+}
+.navbar > ul{
+    list-style-type: none;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+.navbar > ul > li {
+    float: left;
+    display: inline;
+}
+
+.navbar > ul > li > a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
