@@ -101,7 +101,10 @@
     margin-left: 20%;
     margin-right: 20%; 
 }
-
+#cafe-content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .navbar{
 
 }
@@ -124,4 +127,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+.card {
+    color:black;
 }
