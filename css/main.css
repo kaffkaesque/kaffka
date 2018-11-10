@@ -5,6 +5,7 @@
 
 .row:before, 
 .row:after {
+    vertical-align:top;
     content:"";
     display: table;
     clear:both;
