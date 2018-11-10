@@ -10,6 +10,10 @@
     clear:both;
 }
 
+.card-color{
+    background:Sienna;
+}
+
 [class*='col-'] {
     float: left;
     min-height: 1px; 
