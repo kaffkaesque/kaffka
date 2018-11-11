@@ -1,0 +1,35 @@
+# P4 Project Testing
+
+Aleksander G. Wasasnik, Finn H. Inderhaug, Geir Kulia, Olav Markussen, Ane Hov
+
+November 11th 2018
+
+## Administrative Details
+
+Not applicable. This is a hobby project.
+
+## Testing Document
+
+All testing was performed face to face to increase engagement compared to questionary forms. The Tester was presented with the Platform with the landing page already loaded. An introduction is made. "This is a new website still under development. It's purpose is to be a guide to coffee-houses in your area. Please have a look and tell us what you think. You may navigate the site as you wish." If the Tester is about to give up without having looked at any of the cafe descriptions, a single helpful encouragement is given "Please have a look at one of the cafees, like the first one, here." After the Tester has stopped engaging, if there were no comments given, a new request for comments is posed "How was it? Did you like or dislike something in particular?" Any responses are recorded.
+
+## Tester Audience
+
+Our audience is the aspiring-to-be-hip youth. In other words other students. But in the interest of completeness, we would like to have older people try the website as well. We would also like to test out website on people with disabilities like color blindness, weak-sightedness and unsteady hands.
+
+Unfortunatly, finding Testers that would go trough with the whole test was difficult. As a result we only had a few participants.
+
+##  Testing Platforms
+
+To prevent testing fatigue and bias, any given tester was presented with the website on only one platform. The testers were allowed their choice of platform to prevent . The platforms we intended to test on where: Firefox and Google Chrome on a Macbook Pro. Firefox and Google Chrome on an Android phone.
+
+## Feedback summary
+
+We received a lot of complaint about the decision to have the caffes be fictional. The text on the landing page was har to read due to poor contrast with the background. We got a lot of positive response for the creative canvas animation. It made the website more fun and engaging.
+
+## Our responce
+
+We should carefully select background based on a balance between readability and estetics. We were unable to test the accessibility. It might have also been beneficial to do A/B testing to concretize the feedback. This however would require a much larger test group.
+
+## Self reflection
+
+One of the hardest challenges we faced was in-group communication and coordination. A lot of us are otherwise busy people and getting toghether to discuss and plan was a bit hard. We had instances of several people working on the same thing. We feel this project has helped illuminate the problem of group work. We have considered improvements, like more frequent status updates, fixed common work hours and more rapid integration.
