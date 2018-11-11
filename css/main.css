@@ -10,9 +10,18 @@
 
 }
 
+@font-face {
+    font-family: defaultFont;
+    src: url(../fonts/OpenSans/OpenSans-Light.ttf);
+}
+
 body {
     background: var(--brown);
-    color: var(--text-color)
+    color: var(--text-color);
+    font-family: defaultFont;
+
+    background-image: url("../img/cafe_bk.jpg");
+    background-size: cover;
 }
 
 .grid-container {
@@ -85,7 +94,7 @@ body {
     margin: 0;
     text-align: left; 
     color: var(--text-color); 
-    font-family: 'Gravity';
+    font-family: defaultFont;
 }
 
 
