@@ -14,10 +14,12 @@ function timeAndFrameUpdater(){
 var frameTimeInterval = setInterval(timeAndFrameUpdater, msperframe);
 
 function workworkEffect () {
+    var colors = ['#FF9D9C', '#F2DFBC', '#8DBD71', '#7F7E60']
     ctx.save();
     ctx.clearRect(0, 0, c.width, c.height);
     for (var i = 0 ; i < 4; i++){
-	ctx.fillRect(150 + 20*Math.cos(frame/50)*i, 70 + 20*Math.sin(frame/50)*i, 10, 10);
+        ctx.fillStyle = colors[i];
+	    ctx.fillRect(150 + 20*Math.cos(frame/50)*i, 70 + 20*Math.sin(frame/50)*i, 10, 10);
     }
 }
 
