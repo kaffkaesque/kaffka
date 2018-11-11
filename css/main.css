@@ -1,3 +1,15 @@
+:root {
+    --brown: #695248;
+    --pink: #FF9D9C;
+    --beige: #F2DFBC;
+    --green: #8DBD71;
+    --dark-green: #7F7E60;
+
+    --text-color: white;
+    --background-navbar: var(--green);
+
+}
+
 .grid-container {
     width : 100%;
     max-width : 1200px; 
@@ -12,7 +24,7 @@
 }
 
 .card-color{
-    background:Sienna;
+    background: var(--background-navbar);
 }
 
 [class*='col-'] {
@@ -67,7 +79,7 @@
     padding: 0;
     margin: 0;
     text-align: left; 
-    color: black; 
+    color: var(--text-color); 
     font-family: 'Gravity';
 }
 
@@ -111,15 +123,16 @@
     margin-right: 10%;
 }
 .navbar{
-
+    width: 100%;
 }
+
 .navbar > ul{
     list-style-type: none;
     font-size: 22px;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: var(--background-navbar);
 }
 .navbar > ul > li {
     float: left;
@@ -128,13 +141,13 @@
 
 .navbar > ul > li > a{
     display: block;
-    color: black;
+    color: var(--text-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 .card {
-    color:black;
+    color: var(--text-color);
 }
 
 .img {
