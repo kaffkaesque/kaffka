@@ -122,6 +122,7 @@ body {
     .col-12{ width: 100%;    }
 }
 
+/* Inspired and adapted from: http://j4n.co/blog/Creating-your-own-css-grid-system */
 @media all and (max-width:650px){
     .col-1{width: 50%;}
     .col-2{width: 100%;}
