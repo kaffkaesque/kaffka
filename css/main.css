@@ -29,12 +29,13 @@ body {
     background-image: url("../img/cafe_bk.jpg");
     background-size: cover;
 }
-
+/* Inspired and adapted from: http://j4n.co/blog/Creating-your-own-css-grid-system */
 .grid-container {
     width : 100%;
     max-width : 1200px; 
 }
 
+/* Inspired and adapted from: http://j4n.co/blog/Creating-your-own-css-grid-system */
 .row:before, 
 .row:after {
     vertical-align:top;
@@ -51,6 +52,7 @@ body {
     text-align:center;
 }
 
+/* Inspired and adapted from: http://j4n.co/blog/Creating-your-own-css-grid-system */
 [class*='col-'] {
     float: left;
     min-height: 1px; 
@@ -58,6 +60,7 @@ body {
     padding: 5px;
 }
 
+/* Inspired and adapted from: http://j4n.co/blog/Creating-your-own-css-grid-system */
 .col-1{
     width: 8.33%; 
 }
@@ -95,10 +98,12 @@ body {
     width: 100%;
 }
 
+/* Inspired and adapted from: http://j4n.co/blog/Creating-your-own-css-grid-system */
 .grid-container *{
     box-sizing: border-box; 
 }
 
+/* Inspired and adapted from: http://j4n.co/blog/Creating-your-own-css-grid-system */
 [class*='col-'] > p {
     padding: 0;
     margin: 0;
@@ -107,7 +112,7 @@ body {
     font-family: defaultFont;
 }
 
-
+/* Inspired and adapted from: http://j4n.co/blog/Creating-your-own-css-grid-system */
 @media all and (max-width:800px){
     .col-1{ width: 16.66%;  }
     .col-2{ width: 33.33%;     }
@@ -123,6 +128,7 @@ body {
     .col-12{ width: 100%;    }
 }
 
+/* Inspired and adapted from: http://j4n.co/blog/Creating-your-own-css-grid-system */
 @media all and (max-width:650px){
     .col-1{width: 50%;}
     .col-2{width: 100%;}
