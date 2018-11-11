@@ -41,6 +41,10 @@ body {
     background: var(--background-navbar);
 }
 
+.card-text {
+    text-align:center;
+}
+
 [class*='col-'] {
     float: left;
     min-height: 1px; 
