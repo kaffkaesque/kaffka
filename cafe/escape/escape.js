@@ -16,17 +16,14 @@ var frameTimeInterval = setInterval(timeAndFrameUpdater, msperframe);
 function workworkEffect (){
     ctx.save();
     ctx.clearRect(0, 0, c.width, c.height);
-    for (var i =0 ; i<50; i++){
-        if (i%2 ==0){
-            ctx.fillStyle = 'green';
-            ctx.fillRect(i*10, (50)*(Math.sin(i*3+(frame/40)) + 0.5)+30,  5,5);
-        }
-        else{
-            ctx.fillStyle='red';
-            ctx.fillRect(i*10, (50)*(Math.sin(i*3+(frame/40)) + 0.5)+30,  5,5);
-        }
-    }
-    //ctx.fillRect(150 * Math.cos(frame/50)  + 150,  150 * Math.sin(frame/50)  + 150, 100, 100);
+    
+    ctx.translate(0,0);
+    ctx.rotate(0);
+    for (var y = 0 ; y < 10; y++){
+	for (var x = 0; x < 10; x++) {
+	    ctx.fillRect(100 + 20*x + 200*Math.sin(frame/100) , 0 + 20*y + (-20*Math.sin(x*frame/90)), 10, 10);
+	}
+    }     
 }
 
 var updt = setInterval(workworkEffect, msperframe);
