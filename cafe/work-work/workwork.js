@@ -18,11 +18,11 @@ function workworkEffect (){
     ctx.clearRect(0, 0, c.width, c.height);
     for (var i =0 ; i<50; i++){
         if (i%2 ==0){
-            ctx.fillStyle = 'green';
+            ctx.fillStyle = '#8DBD71';
             ctx.fillRect(i*10, (50)*(Math.sin(i*3+(frame/40)) + 0.5)+30,  5,5);
         }
         else{
-            ctx.fillStyle='red';
+            ctx.fillStyle='#FF9D9C';
             ctx.fillRect(i*10, (50)*(Math.sin(i*3+(frame/40)) + 0.5)+30,  5,5);
         }
     }
