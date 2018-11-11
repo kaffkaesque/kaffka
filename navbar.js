@@ -2,7 +2,7 @@ document.write('\
 <div class="navbar">\
     <ul>\
 	<li><a href="index.html"><img src="img/logo.png" alt="Kaffka"></a></li>\
-	<li style="float:right;"><a href="about.html">About us</a></li>\
+	<li style="float:right;margin-top:30px;"><a href="about.html">About us</a></li>\
     </ul>\
 </div>');
 
