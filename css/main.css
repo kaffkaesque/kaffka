@@ -10,6 +10,11 @@
 
 }
 
+body {
+    background: var(--brown);
+    color: var(--text-color)
+}
+
 .grid-container {
     width : 100%;
     max-width : 1200px; 
